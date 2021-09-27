@@ -64,3 +64,5 @@ class Address{
     private Student student;
 }
 ```
+
+**Note:** mappedBy is used on the inverse side. It indicates that who is the owner of this entity. In the above case student class is the owner and address in depedent. So, we use mappedBy on the inverse side which is address class.
